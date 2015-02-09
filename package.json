@@ -1,0 +1,40 @@
+{
+  "name": "react-starter-template",
+  "version": "1.0.0",
+  "description": "Aerobatic starter template for React apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aerobatic/react-starter"
+  },
+  "author": "David Von Lehman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aerobatic/react-starter/issues"
+  },
+  "homepage": "https://github.com/aerobatic/react-starter",
+  "dependencies": {
+    "normalize-css": "^2.3.1",
+    "react": "^0.12.2"
+  },
+  "_aerobatic": {
+    "appId": "byjgdMdNq"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-minify-css": "^0.4.5",
+    "gulp-react": "^2.0.0",
+    "gulp-uglify": "^1.1.0",
+    "reactify": "^1.0.0",
+    "run-sequence": "^1.0.2",
+    "stream-series": "^0.1.1",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}

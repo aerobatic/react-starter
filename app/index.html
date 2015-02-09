@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aeroatic React Starter Template</title>
+    <link rel="shortcut icon" href="/react.ico">
+
+    <link rel="stylesheet" data-aero-build="debug" href="node_modules/normalize-css/normalize.css">
+    <link rel="stylesheet" data-aero-build="debug" href="css/app.css">
+    <link rel="stylesheet" data-aero-build="release" href="css/app.min.css">
+
+    <!-- Include the client side JSX transformer in debug build -->
+    <script data-aero-build="debug" src="node_modules/react/dist/JSXTransformer.js"></script>
+  </head>
+  <body>
+    <div id="banner"></div>
+
+    <!-- <div id="content"></div> -->
+    <div data-aero-build="debug">
+      <script src="node_modules/react/dist/react.js"></script>
+      <script type="text/jsx;harmony=true" data-aero-src="js/components/**/*.jsx"></script>
+      <script type="text/jsx;harmony=true" data-aero-src="js/app.jsx"></script>
+    </div>
+    <script src="app.min.js" data-aero-build="release"></script>
+  </body>
